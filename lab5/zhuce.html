@@ -5,97 +5,189 @@
 	<meta charset="utf-8">
 </head>
 <body>
-<table border="1" width=400" height="400"  cellpadding="2" cellspacing="0"  align="center" bordercolor="#F5F5F5" >
-<tr>
-<td>用户名:</td><td colspan="2">
-<form>
-<input type="text" name="">
-</form>
-</td>
-</tr>
-<tr>
-<td>密码:</td><td colspan="2">
-<form>
-<input type="password" name="">
-</form>
+	<form action="http://10.7.1.98/taozhuo/form_data.php" method="get">
+		<table border="1" width=400"height="" align="center" bordercolor="#F5F5F5">
+			<tr>
+				<td >用户名:</td>
+				<td colspan="5"><input type="text" name="name"></td>
+			</tr>
+			<tr>
+				<td >密码：</td>
+				<td colspan="5"><input type="password" name="password"></td>
+			</tr>
+			<tr>
+				<td >确认密码：</td>
+				<td colspan="5"><input type="password" name="password"></td>
+			</tr>
+	    	<tr>
+				<td>性别：</td>
+				<td colspan="5"><input type="radio" checked="checked" name="sex" value="male">男
+				<input type="radio" name="sex" value="female">女</td>
+			</tr>
+			<tr>
+				<td>生日：</td>
+				<td colspan="5">
+				<select name="birthday">
+					<option checked="checked">公历</option><br/>
+					<option checked="checked">阴历</option>
+				</select>
+				<select name="year">
+					<option checked="checked">年</option><br/>
+					<option>1990</option><br/>
+					<option>1991</option><br/>
+					<option>1992</option><br/>
+					<option>1993</option><br/>
+					<option>1994</option><br/>
+					<option>1995</option><br/>
+					<option>1996</option><br/>
+					<option>1997</option><br/>
+					<option>1998</option><br/>
+					<option>1999</option><br/>
+					<option>2000</option><br/>
+					<option>2001</option><br/>
+				</select>
+				<select name="month">
+					<option checked="checked">月</option><br/>
+					<option>1</option><br/>
+					<option>2</option><br/>
+					<option>3</option><br/>
+					<option>4</option><br/>
+					<option>5</option><br/>
+					<option>6</option><br/>
+					<option>7</option><br/>
+					<option>8</option><br/>
+					<option>9</option><br/>
+					<option>10</option><br/>
+					<option>11</option><br/>
+					<option>12</option><br/>
+				</select>
 
-</td>
-</tr>
-<tr>
-<td>确认密码:</td><td colspan="2">
-<form><input type="password" name=""></form>
-</td>
-</tr>
-<tr>
-<td>性别:</td><td colspan="2">
-<form>
-<input type="radio" name="sex" value="女"  checked="checked" />男<input type="radio" name="sex" value="n"/>女
-</form>
-</td>
-</tr>
-<tr>
-<td>生日:</td><td colspan="2">
-<form>
-<select name=""> <option value="公历">公历</option><option value="阴历">阴历</option> </select>&nbsp&nbsp
-<select name="年"><option value="年">年</option><option value="1997年">1997年</option><option value="1998年">1998年</option><option value="1999年">1999年</option></select>&nbsp&nbsp
-<select name=""><option value="月">月</option><option value="1月">1月</option><option value="2月">2月</option><option value="3月">3月</option><option value="4月">4月</option><option value="5月">5月</option><option value="6月">6月</option><option value="7月">7月</option><option value="8月">8月</option><option value="9月">9月</option><option value="9月">9月</option><option value="10月">10月</option><option value="11月">11月</option><option value="12月">12月</option></select>&nbsp&nbsp
-<select name=""><option value="日">日</option><option value="1日">1日</option><option value="2日">2日</option><option value="3日">3日</option><option value="4日">4日</option><option value="5日">5日</option><option value="6日">6日</option><option value="7日">7日</option><option value="8日">8日</option><option value="9日">9日</option><option value="10日">10日</option><option value="11日">11日</option><option value="12日">12日</option></select>
-</form>
-</td>
-</tr>
-<tr>
-<td>所在地:</td><td colspan="2">
-<form>
-<select><option value="中国">中国</option><option value="英国">英国</option><option value="美国">美国</option></select>
-<select><option value="河北">河北</option><option value="河南">河南</option><option value="山东">山东</option>
-</select>
-<select><option value="石家庄">石家庄</option><option value="衡水">衡水</option><option value="唐山">唐山</option>
-</select>
-</form>
-</td>
-</tr>
-<tr>
-<td>验证码:</td><td colspan="2">
-<form>
-<input type="text" name=""><img src="yanzhengma.jpg" width="120" height="30">
-</form>
 
-</td>
-</tr>
-<tr>
-<td>证件类型:</td><td colspan="2">
-<form>
-<select><option value="身份证">身份证</option><option value="签证">签证</option><option value="护照">护照</option></select>
-</form>
-</td>
-</tr>
-<tr>
-<td>证件号:</td><td colspan="2">
-<form><input type="text" name=""></form>
-</td>
-</tr>
-<tr>
-<td>爱好:</td><td colspan="2">
-<form>
-<input type="checkbox" name="like" value="音乐" " />音乐<input type="checkbox" name="like" value="读书" checked="checked" />读书<input type="checkbox" name="like" value="跳舞" checked="checked" />跳舞<input type="checkbox" name="like" value="下棋">下棋<input type="checkbox" name="like" value="其他"> 其他</form>
-</td>
-</tr>
-<tr>
-<td >说明:</td><td colspan="2" >
+<select name="date">
+					<option checked="checked">日</option>
+					<option>1</option><br/>
+					<option>2</option><br/>
+					<option>3</option><br/>
+					<option>4</option><br/>
+					<option>5</option><br/>
+					<option>6</option><br/>
+					<option>7</option><br/>
+					<option>8</option><br/>
+					<option>9</option><br/>
+					<option>10</option><br/>
+					<option>11</option><br/>
+					<option>12</option><br/>
+					<option>13</option><br/>
+					<option>14</option><br/>
+					<option>15</option><br/>
+					<option>16</option><br/>
+					<option>17</option><br/>
+					<option>18</option><br/>
+					<option>19</option><br/>
+					<option>20</option><br/>
+					<option>21</option><br/>
+					<option>22</option><br/>
+					<option>23</option><br/>
+					<option>24</option><br/>
+					<option>25</option><br/>
+					<option>26</option><br/>
+					<option>27</option><br/>
+					<option>28</option><br/>
+					<option>29</option><br/>
+					<option>30</option><br/>
+					<option>31</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>所在地：</td>
+				<td colspan="5">
+					<select name="country">
+						<option checked="checked">中国</option>
+						<option>英国</option><br/>
+						<option>日本</option><br/>
+						<option>法国</option><br/>
+						<option>巴西</option><br/>
+						<option>奥地利</option><br/>
+						<option>刚果</option><br/>
+						<option>德国</option><br/>
+						<option>新加坡</option><br/>
+						<option>印度</option><br/>
+						<option>俄罗斯</option><br/>
+						<option>丹麦</option><br/>
+						<option>荷兰</option><br/>
+						<option>西班牙</option><br/>
+						<option>意大利</option>
+					</select>
+					<select name="province">
+						<option checked="checked">河北</option>
+						<option>河南</option><br/>
+						<option>河南</option><br/>
+						<option>北京</option><br/>
+						<option>天津</option><br/>
+						<option>上海</option><br/>
+						<option>四川</option><br/>
+						<option>湖南</option><br/>
+						<option>湖北</option><br/>
+						<option>广东</option><br/>
+						<option>广西</option><br/>
+						<option>海南</option>
+					</select>
+					<select name="city">
+						<option checked="checked">石家庄</option><br/>
+						<option>邯郸</option><br/>
+						<option>邢台</option><br/>
+						<option>张家口</option><br/>
+						<option>秦皇岛</option><br/>
+						<option>廊坊</option><br/>
+						<option>保定</option><br/>
+						<option>沧州</option><br/>
+						<option>衡水</option><br/>
+						<option>唐山</option><br/>
+						<option>承德</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>验证码:</td><td colspan="2">
 
-<form>
-<textarea rows="7" cols="40"></textarea>
-</form>
-</td>
+			<input type="text" name=""><img src="yanzhengma.jpg" width="100" height="30">
 
-</tr>
+
+				</td>
+			</tr>
+			<tr>
+				<td>证件类型：</td>
+				<td colspan="5">
+					<select>
+						<option checked="checked">身份证</option><br/>
+						<option></option><br/>
+						<option></option><br/>
+						<option></option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>证件号：</td>
+				<td colspan="5"><input type="text" name="number">
+			</tr>
+
+
 <tr>
+				<td>爱好：</td>
+				<td><input type="checkbox" name="like[]" value="音乐" id="like1">音乐 <input type="checkbox" name="like[]" value="读书" checked="checked" id="like2">读书 <input type="checkbox" name="like[]" value="跳舞" checked="checked" id="like3">跳舞<input type="checkbox" name="like[]" value="下棋" id="like4">下棋<input type="checkbox" name="like[]" value="其他" id="like5">其他 </td>
+			</tr>
+			<tr>
+				<td>说明:</td>
+				<td><textarea rows="5" cols="40"></textarea></td>
+			</tr>
+			<tr>
 				<td>上传头像</td>
 				<td><input type="file" name="ding"></td>
 			</tr>
 			<tr>
-				<td colspan="6" align="center">&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="提交">&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="重置">&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="按钮"></td>
+				<td colspan="6" align="center"><input type="submit" value="提交">&nbsp;&nbsp;<input type="reset" value="重置">&nbsp;&nbsp;<input type="button" value="按钮"></td>
 			</tr>
-
+		</table>
+	</form>
 </body>
 </html>
