@@ -1,6 +1,10 @@
 /*
 主体样式
 */
+*{
+	padding: 0px;
+	margin: 0px;
+}
 html{
 	padding: 0px;
 	color:#522a06; 
