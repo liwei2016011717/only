@@ -272,8 +272,7 @@ a:hover{
 	height: 450px;
 	margin-right: -420px;
 	margin-top: -445px;
-	float: right;
-}
+	float: right;}
 .content_bottom_right img {
 	width: 224px;
 	margin-top: 20px;
@@ -283,8 +282,7 @@ a:hover{
 .div3{
 	width: 277px;
 	height: 30px;
-	background-image: url(../images/show.png);
-	background-repeat: no-repeat;
+	background-image: url(../images/show.png);	background-repeat: no-repeat;
 	background-position: center;
 
 }
@@ -328,7 +326,7 @@ a:hover{
 .footer img{
 	margin-top: 20px;
 	width: 600px;
-	margin-left: -15px;
+	margin-left: -50px;
 }
 
 
