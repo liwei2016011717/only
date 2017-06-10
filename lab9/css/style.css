@@ -160,7 +160,7 @@ a:hover{
 	width: 277px;
 	height: 200px;
 	margin-right: -200px;
-	margin-top: -260px;
+	margin-top: -240px;
 	float: right;
 	background-image: url(../images/board.png);
 	background-repeat: no-repeat;
@@ -169,7 +169,7 @@ a:hover{
 	font-size: 10px;
 	width: 300px;
 	height: 210px;
-	margin-top: 40px;
+	margin-top: 20px;
 	margin-left: -80px;
 	text-align: left;
 	background-image: url(../images/board_bg.png);
@@ -178,9 +178,8 @@ a:hover{
 .news_announce ul li{
 	width: 240px;
 	float: left;
-	margin-top: 10px;
 	margin-left: 10px;
-	line-height: 20px;
+	line-height: 30px;
 }
 .academic{
 	width: 340px;
@@ -227,9 +226,11 @@ a:hover{
 .book_news ul li span{
 	float: right;
 }
-.fengcai{
+.fengcai{/*border: 1px #FF0000 solid;*/
 	width: 700px;
-	height: 254px;
+	height: 240px;
+	margin-top: 150px;
+	margin-left: 150px;
 	float: none;
 }
 
@@ -242,8 +243,8 @@ a:hover{
 	float:left;
 	height: 60px;
 	width: 700px;
-	margin-top: -60px;
-	margin-left: 10px;
+	margin-top: -50px;
+	margin-left: -120px;
 }
 .div1 span img{
 	float: right;
@@ -255,22 +256,25 @@ a:hover{
 	height: 300px;
 	background-image: url(../images/fengcai_bg2.png);
 	background-repeat: no-repeat;
-	margin-left: 150px;
-	margin-top: 204px;
+	margin-left: 10px;
+	margin-top: 200px;
 }
 .div2 img{
+	height: 136px;
+	float: left;
 	margin-top: 20px;
-	margin-left: 2px;
+	margin-left: 20px;
 }
 
 
 .fengcai ul{
 	list-style: none;
 }
-.fengcai ul li a img{
+/*.fengcai ul li a img{
 	height: 136px;
 	float: left;
-}
+	margin-left: 20px;
+}*/
 .content_bottom_right{
 	width: 277px;
 	height: 400px;
@@ -311,7 +315,7 @@ a:hover{
 .div5 img{
 	width: 28px;
 	height: 20px;
-	margin-top: 30px;
+	margin-top: 40px;
 	float: right;
 	margin-right: -20px;
 }
