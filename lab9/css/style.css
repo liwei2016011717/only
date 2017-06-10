@@ -45,8 +45,7 @@ a:hover{
 }
 .banner img{
 	margin-top: 38px;
-	float: left;
-	margin-left: 25px;
+	margin-left: -200px;
 
 }
 .nav{
@@ -146,8 +145,9 @@ a:hover{
 	float: right;
 }
 .news_list ul{
+	width: 300px;
+	height: 210px;
 	font-size: 10px;
-	margin-left: -20px;
 	margin-top: 10px;
 	line-height: 28px;
 	float: left;
@@ -158,27 +158,30 @@ a:hover{
 }
 .news_announce{
 	width: 277px;
-	height: 200px;
-	margin-right: -200px;
-	margin-top: -240px;
+	height: 240px;
+	margin-right:-120px;
+	margin-top: -250px;
 	float: right;
+}
+.news{
+	width: 277px;
+	height: 30px;
 	background-image: url(../images/board.png);
 	background-repeat: no-repeat;
+	background-position: center;
 }
-.news_announce ul{
+.ul{
 	font-size: 10px;
-	width: 300px;
-	height: 210px;
-	margin-top: 20px;
-	margin-left: -80px;
+	width: 277px;
+	height: 205px;
+	margin-top: 5px;
 	text-align: left;
 	background-image: url(../images/board_bg.png);
 	background-repeat: no-repeat;
 }
-.news_announce ul li{
-	width: 240px;
-	float: left;
-	margin-left: 10px;
+.ul li{
+	width: 277px;
+	margin-left: 5px;
 	line-height: 28px;
 }
 .academic{
@@ -194,9 +197,10 @@ a:hover{
 	float: right;
 }
 .academic ul{
+	width: 340px;
+	height: 135px;
 	font-size: 10px;
-	margin-left: 10px;
-	margin-top: 40px;
+	margin-top: 20px;
 	line-height: 28px;
 	float: left;
 	text-align: left;
@@ -213,11 +217,10 @@ a:hover{
 }
 .book_news span{
 	float: right;
-	margin-right: 40px;
+	margin-right: 27px;
 }
 .book_news ul{
 	font-size: 10px;
-	/*margin-left: 3px;*/
 	margin-top: 20px;
 	line-height: 28px;
 	float: left;
@@ -226,7 +229,7 @@ a:hover{
 .book_news ul li span{
 	float: right;
 }
-.fengcai{/*border: 1px #FF0000 solid;*/
+.fengcai{
 	width: 700px;
 	height: 240px;
 	margin-top: 150px;
@@ -237,27 +240,20 @@ a:hover{
 .fengcai span{
 	margin-top: 10px;
 	float: right;
-	margin-right: -120px;
+	margin-right: -200px;
 }
 .div1{
-	float:left;
 	height: 60px;
-	width: 700px;
-	margin-top: -50px;
-	margin-left: -120px;
+	width: 450px;
+	
 }
-.div1 span img{
-	float: right;
-	margin-right: 40px;
-	margin-top: 10px;
-}
+
 .div2{
-	width: 680px;
+	width: 700px;
 	height: 300px;
 	background-image: url(../images/fengcai_bg2.png);
 	background-repeat: no-repeat;
-	margin-left: 10px;
-	margin-top: 200px;
+	
 }
 .div2 img{
 	height: 136px;
@@ -270,16 +266,12 @@ a:hover{
 .fengcai ul{
 	list-style: none;
 }
-/*.fengcai ul li a img{
-	height: 136px;
-	float: left;
-	margin-left: 20px;
-}*/
+
 .content_bottom_right{
 	width: 277px;
-	height: 400px;
-	margin-right: -400px;
-	margin-top: -490px;
+	height: 450px;
+	margin-right: -420px;
+	margin-top: -445px;
 	float: right;
 }
 .content_bottom_right img {
@@ -298,12 +290,12 @@ a:hover{
 }
 .div4{
 	width: 277px;
-	height: 400px;
+	height: 440px;
 	float: left;
 	margin-right: 60px;
 	background-image: url(../images/show_bg.png);
 	background-repeat: no-repeat;
-	margin-top: 20px;
+	margin-top: 40px;
 
 }
 .div5{
