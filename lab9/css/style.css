@@ -115,8 +115,7 @@ a:hover{
 }
 .news_pic{
 	width: 324px;
-	height: 243px;
-	background-image: url(../images/news_bg.png);
+	height: 243px;	background-image: url(../images/news_bg.png);
 	margin-top: 20px;
 	float: left;
 	margin-left: 150px;
@@ -145,7 +144,7 @@ a:hover{
 	float: right;
 }
 .news_list ul{
-	width: 300px;
+	width: 330px;
 	height: 210px;
 	font-size: 10px;
 	margin-top: 10px;
