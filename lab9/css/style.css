@@ -105,7 +105,8 @@ a:hover{
 .content_bottom_left{
 	width: 715px;
 	height: 200px;
-	float: left;}
+	float: left;
+}
 .content_bottom_right{
 	width: 280px;
 	height: 200px;
@@ -114,8 +115,10 @@ a:hover{
 }
 .news_pic{
 	width: 324px;
-	height: 243px;	background-image: url(../images/news_bg.png);
-	margin-top: 20px;	float: left;
+	height: 243px;
+	background-image: url(../images/news_bg.png);
+	margin-top: 20px;
+	float: left;
 	margin-left: 150px;
 }
 
@@ -132,27 +135,27 @@ a:hover{
 .news_list{
 	width: 300px;
 	height: 250px;
-	margin-left: 30px;
+	margin-left: 38px;
 	margin-top: 20px;
 	float: left;
 	background-image: url(../images/change.png);
 	background-repeat: no-repeat;
 }
-.news_list span{
+/*.news_list span{
 	float: right;
-}
+}*/
 .news_list ul{
 	width: 280px;
-	height: 210px;
+	height: 200px;
 	font-size: 10px;
-	margin-top: 10px;
+	margin-top: 30px;
 	line-height: 28px;
 	float: left;
 	text-align: left;
-}
+}/*
 .news_list ul li span{
 	float: right;
-}
+}*/
 .news_announce{
 	width: 277px;
 	height: 240px;
@@ -190,9 +193,9 @@ a:hover{
 	background-image: url(../images/academic.png);
 	background-repeat: no-repeat;
 }
-.academic span{
+/*.academic span{
 	float: right;
-}
+}*/
 .academic ul{
 	width: 340px;
 	height: 135px;
@@ -214,21 +217,18 @@ a:hover{
 }
 .book_news span{
 	float: right;
-	margin-right: 27px;
 }
 .book_news ul{
+	width: 340px;
 	font-size: 10px;
 	margin-top: 20px;
 	line-height: 28px;
 	float: left;
 	text-align: left;
 }
-.book_news ul li span{
-	float: right;
-}
 .fengcai{
 	width: 700px;
-	height: 240px;
+	height: 250px;
 	margin-top: 150px;
 	margin-left: 150px;
 	float: none;
@@ -240,16 +240,18 @@ a:hover{
 	margin-right: -200px;
 }
 .div1{
-	height: 60px;
+	height: 38px;
 	width: 450px;
 	
 }
 
-.div2{
+.div2{/*border: 1px #FF0000 solid;*/
 	width: 700px;
-	height: 300px;
+	height: 210px;
+	margin-top: 30px;
 	background-image: url(../images/fengcai_bg2.png);
 	background-repeat: no-repeat;
+	
 	
 }
 .div2 img{
@@ -269,7 +271,8 @@ a:hover{
 	height: 450px;
 	margin-right: -420px;
 	margin-top: -445px;
-	float: right;}
+	float: right;
+}
 .content_bottom_right img {
 	width: 224px;
 	margin-top: 20px;
@@ -279,7 +282,8 @@ a:hover{
 .div3{
 	width: 277px;
 	height: 30px;
-	background-image: url(../images/show.png);	background-repeat: no-repeat;
+	background-image: url(../images/show.png);
+	background-repeat: no-repeat;
 	background-position: center;
 
 }
@@ -307,25 +311,26 @@ a:hover{
 	margin-right: -20px;
 }
 .footer{
-	width: 680px;
 	height:105px;
 	float: none;
 	margin-top: 680px;
-	margin-left: 300px;
 	background-image: url(../images/foot.gif);
 }
 .footer ul li{
+	color: #522a06;
 	font-weight: bolder;
 	float: left;
-	line-height: 8px;
-	margin-left: 30px;
+	margin-left: 20px;
+	
 }
+
 .footer img{
 	margin-top: 20px;
 	width: 600px;
-	margin-left: -120px;
 }
-
+.date{
+	float: right;
+}
 
 
 
